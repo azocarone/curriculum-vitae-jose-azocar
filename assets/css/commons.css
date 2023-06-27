@@ -1,0 +1,42 @@
+:root {
+    --width: calc((100% - 940px)/2);
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+        font-size: calc(8px + .5vw);
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    :root {
+        font-size: calc(10px + .5vw);
+    }
+}
+
+@media print,
+screen and (min-width: 1024px) {
+    :root {
+        font-size: 16px;
+    }
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #F5F5F5;
+}
+
+@media print {
+    :root {
+        font-size: 12px;
+    }
+
+    body {
+        background-color: #FFFFFF;
+    }
+
+    @page {
+        size: letter portrait;
+        margin: 10mm;
+    }
+}
