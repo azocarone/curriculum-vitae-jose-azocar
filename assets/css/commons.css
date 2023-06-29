@@ -26,6 +26,8 @@ body {
     background-color: #F5F5F5;
 }
 
+/* En browser escalar (Ej. Firefox 77%) impresión para ajustar a una pagina */
+
 @media print {
     :root {
         font-size: 12px;
