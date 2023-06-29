@@ -94,6 +94,7 @@
 
 .main__section-link::after {
     font-family: "Font Awesome 6 Free";
+    font-weight: 900;
     font-size: .875rem;
     padding-left: .625rem;
     padding-right: .0625rem;
