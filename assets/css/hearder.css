@@ -3,8 +3,8 @@
     box-sizing: border-box;
     width: 1.25rem;
     height: 1.25rem;
-    margin: .875rem;
     padding: 0;
+    margin: .875rem;
     position: absolute;
     right: 0;
     top: 0;
@@ -20,12 +20,12 @@
     pointer-events: none;
 }
 
-.header__navigation-icon--bars::before{
-    font-weight: 900;
+.header__navigation-icon--bars::before {
+    font-weight: 600;
     content: "\f0c9";
 }
 
-.header__navigation-icon--circle-xmark::before{
+.header__navigation-icon--circle-xmark::before {
     font-weight: 400;
     content: "\f057";
 }
@@ -39,21 +39,21 @@
 
 .header__navigation-menu-link {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     height: 2rem;
-    background: #404552;
-    color: #F5F5F5;
+    color: #F7F9FB;
+    background: #18181A;
     font-size: .875rem;
     text-decoration: none;
     border-bottom: .0625rem solid #AAAAAA;
 }
 
-.header__navigation-menu-link--icon-language::before, 
+.header__navigation-menu-link--icon-language::before,
 .header__navigation-menu-link--icon-file-pdf::before {
     display: flex;
     font-family: "Font Awesome 6 Free";
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .header__navigation-menu-link--icon-language::before {
@@ -75,9 +75,15 @@
     display: block;
 }
 
-@media screen and (max-width: 956px) {
-    .header__navigation-icon--bars{
-        color: #F5F5F5;
+@media screen and (max-width: 970px) {
+    .header__navigation-icon--bars {
+        color: #F7F9FB;
         content: "\f0c9";
+    }
+}
+
+@media print {
+    .header__navigation-icon--bars {
+        display: none;
     }
 }
