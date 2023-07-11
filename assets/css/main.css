@@ -37,13 +37,13 @@
     margin-top: 1rem;
 }
 
-.main__section-title--font {
+.main__section-title--text-modify {
     font-size: 3rem;
     font-weight: 700;
     border-bottom: unset;
 }
 
-.main__section-subtitle--font {
+.main__section-subtitle--text-modify {
     font-size: 2rem;
     font-weight: 400;
 }
@@ -81,12 +81,21 @@
     content: "\f0b1";
 }
 
-.main__section-list-item--padding {
-    padding-top: 1rem;
+.main__section-list-item--box {
+    display: inline-block;
+    width: min-content;
+    padding: .25rem;
+    border: .0625rem solid #AAAAAA;
+    border-radius: .25rem;
+    margin-bottom: .3125rem;
+    font-weight: initial;
+    font-size: .875rem;
+    color: #49464F;
+    background-color: #F2F2F2;
+    white-space: nowrap;
 }
 
 .main__section-link {
-    font-weight: 600;
     color: #49464F;
 }
 
@@ -102,26 +111,8 @@
 
 .main__section-blockquote {
     padding-left: .625rem;
-    border-left: .0625rem solid #5A5E62;
+    border-left: .125rem solid #D1D1D1;
     margin: 0;
-}
-
-.main__section-code {
-    font-family: 'Raleway', sans-serif;
-    font-size: .875rem;
-    padding: .25rem;
-    border: .0625rem solid #AAAAAA;
-    border-radius: .25rem;
-    color: #49464F;
-    background-color: #F2F2F2;
-    line-height: 2.3;
-    white-space: nowrap;
-}
-
-.main__section-code--font,
-.main__section-link--font {
-    font-weight: initial;
-    color: #49464F;
 }
 
 @media print,
@@ -174,6 +165,12 @@ screen and (min-width: 1024px) {
         grid-area: 6 / 2 / 7 / 3;
     }
 
+    .main__section:nth-child(2),
+    .main__section:nth-child(5),
+    .main__section:nth-child(6) {
+        background-color: #FFFFFF;
+    }
+
     .main__section:nth-child(1),
     .main__section:nth-child(3),
     .main__section:nth-child(4),
@@ -189,11 +186,12 @@ screen and (min-width: 1024px) {
         margin: 1.5rem auto;
     }
 
-    .main__section-title--font {
+    .main__section-title--text-modify {
         padding-top: 2.5rem;
     }
 
     .main__section-link--color {
-        color: #F1FCFE;
+        font-weight: unset;
+        color: unset;
     }
 }
