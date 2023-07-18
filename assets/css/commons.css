@@ -27,7 +27,7 @@ body {
     background-color: #F2F2F2;
 }
 
-/* En browser escalar (Ej. Firefox 77%) impresión para ajustar a una pagina */
+/* En browser escalar (Ej. Firefox 82%) impresión para ajustar a una pagina */
 
 @media print {
     :root {
