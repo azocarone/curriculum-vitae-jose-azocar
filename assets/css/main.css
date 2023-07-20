@@ -18,7 +18,12 @@
 }
 
 .main__section:nth-child(1) {
-    background-image: url("../img/20230517.jpg");
+    background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%),
+        url("../img/20230517.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .main__section-image {
@@ -178,7 +183,7 @@ screen and (min-width: 1024px) {
     .main__section:nth-child(8),
     .main__section:nth-child(9) {
         color: #F1FCFE;
-        background-color: #127765;
+        background-color: #444444;
     }
 
     .main__section-image {
