@@ -1,45 +1,44 @@
 :root {
-    --width: calc((100% - 940px)/2);
+  --width: calc((100% - 940px) / 2);
 }
 
 @media screen and (max-width: 767px) {
-    :root {
-        font-size: calc(8px + .5vw);
-    }
+  :root {
+    font-size: calc(8px + 0.5vw);
+  }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    :root {
-        font-size: calc(10px + .5vw);
-    }
+  :root {
+    font-size: calc(10px + 0.5vw);
+  }
 }
 
-@media print,
-screen and (min-width: 1024px) {
-    :root {
-        font-size: 16px;
-    }
+@media print, screen and (min-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    color: #49464F;
-    background-color: #F2F2F2;
+  font-family: "Raleway", sans-serif;
+  color: #49464f;
+  background-color: #f2f2f2;
 }
 
 /* En browser escalar (Ej. Firefox 82-es / 84-en %) impresión para ajustar a una pagina */
 
 @media print {
-    :root {
-        font-size: 12px;
-    }
+  :root {
+    font-size: 12px;
+  }
 
-    body {
-        background-color: #FFFFFF;
-    }
+  body {
+    background-color: #ffffff;
+  }
 
-    @page {
-        size: letter portrait;
-        margin: 10mm;
-    }
+  @page {
+    size: letter portrait;
+    margin: 10mm;
+  }
 }

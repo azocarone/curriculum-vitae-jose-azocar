@@ -1,299 +1,492 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mí Currículum</title>
-    <meta name="description" content="José AZÓCAR \ Ing. en Informática | Dev Trainee/Junior | Data Science">
-    <meta name="author" content="José AZÓCAR">
+    <meta
+      name="description"
+      content="José AZÓCAR \ Ing. en Informática | Dev Trainee/Junior | Data Science"
+    />
+    <meta name="author" content="José AZÓCAR" />
 
-     <!-- Favicon -->
-     <link rel="icon" type="image/svg+xml" href="../assets/img/icons/favicon.svg">
-     <link rel="icon" type="image/png" href="../assets/img/icons/favicon.png">
-    
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="../assets/img/icons/favicon.svg"
+    />
+    <link rel="icon" type="image/png" href="../assets/img/icons/favicon.png" />
+
     <!-- "Google Fonts": Raleway -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- "Font Awesome 6 Free": Install local -->
-    <link href="../assets/css/solid.min.css" rel="stylesheet">
-    <link href="../assets/css/regular.min.css" rel="stylesheet">
-    
-    <!-- Referencias CSS -->
-    <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/commons.css">
-    <link rel="stylesheet" href="../assets/css/hearder.css">
-    <link rel="stylesheet" href="../assets/css/main.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
+    <!-- "Font Awesome 6 Free": Install local -->
+    <link href="../assets/css/solid.min.css" rel="stylesheet" />
+    <link href="../assets/css/regular.min.css" rel="stylesheet" />
+
+    <!-- Referencias CSS -->
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/commons.css" />
+    <link rel="stylesheet" href="../assets/css/hearder.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+
+  <body>
     <header class="header">
-        <nav class="header__navigation">
-            <input class="header__navigation-checkbox" type="checkbox">
-            <span class="header__navigation-icon header__navigation-icon--bars"></span>
-            <span class="header__navigation-icon header__navigation-icon--circle-xmark"></span>
-            <div class="header__navigation-menu">
-                <ul class="header__navigation-menu-list">
-                    <li class="header__navigation-menu-item">
-                        <a class="header__navigation-menu-link header__navigation-menu-link--icon-language"
-                            href="../en/index.html" target="_blank" rel="noopener noreferrer">English</a>
-                    </li>
-                    <li class="header__navigation-menu-item">
-                        <a class="header__navigation-menu-link header__navigation-menu-link--icon-file-pdf"
-                            href="CVae53620b.pdf" target="_blank" rel="noopener noreferrer">Guardar</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="header__navigation">
+        <input class="header__navigation-checkbox" type="checkbox" />
+        <span
+          class="header__navigation-icon header__navigation-icon--bars"
+        ></span>
+        <span
+          class="header__navigation-icon header__navigation-icon--circle-xmark"
+        ></span>
+        <div class="header__navigation-menu">
+          <ul class="header__navigation-menu-list">
+            <li class="header__navigation-menu-item">
+              <a
+                class="header__navigation-menu-link header__navigation-menu-link--icon-language"
+                href="../en/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >English</a
+              >
+            </li>
+            <li class="header__navigation-menu-item">
+              <a
+                class="header__navigation-menu-link header__navigation-menu-link--icon-file-pdf"
+                href="CVae53620b.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Guardar</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main class="main">
-        <!-- 1 -->
-        <section class="main__section">
-            <img class="main__section-image" src="../assets/img/logos/ja.svg" alt="Logo perfil José AZÓCAR">
-        </section>
-        <!-- 2 -->
-        <section class="main__section">
-            <h1 class="main__section-title main__section-title--text-modify">José AZÓCAR</h1>
-            <h2 class="main__section-subtitle main__section-subtitle--text-modify">Ing. en Informática | Dev
-                Trainee/Junior | Data Science</h2>
-        </section>
-        <!-- 3 -->
-        <section class="main__section">
-            <h2 class="main__section-title">Contacto</h2>
-            <ul class="main__section-list">
-                <li class="main__section-list-item main__section-list-item--icon">San Diego, Carabobo - Venezuela</li>
-                <li class="main__section-list-item main__section-list-item--icon">+58 41X XXX XX XX</li>
-                <li class="main__section-list-item main__section-list-item--icon">mi@curriculum.web</li>
-                <li class="main__section-list-item main__section-list-item--icon">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://azocarone.github.io/portafolio-challenge-one/" target="_blank"
-                        rel="noopener noreferrer">Portafolio</a>
-                </li>
-            </ul>
-        </section>
-        <!-- 4 -->
-        <section class="main__section">
-            <h2 class="main__section-title">Acerca de ...</h2>
-            <p class="main__section-paragraph">Soy ingeniero informático con un máster en e-Commerce y más de 13 años de
-                experiencia en el sector. Presto asesoramiento y servicios especializados en TI, ofreciendo soluciones
-                innovadoras para satisfacer las necesidades de los clientes. Me mantengo en contacto con programas como
-                el ONE - Oracle Next Education, con el propósito de aprovechar mi formación para incrementar el éxito y
-                aportar valor a los proyectos en los que participo. Si requiere a un profesional de tecnología de la
-                información y comercio electrónico, estaría encantado de colaborar con usted para que pueda lograr sus
-                objetivos.</p>
-        </section>
-        <!-- 5 -->
-        <section class="main__section">
-            <h2 class="main__section-title">Experiencia Laboral</h2>
-            <h3 class="main__section-subtitle">Por Cuenta Propia</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item">
-                    <a class="main__section-link" href="https://github.com/azocarone" target="_blank"
-                        rel="noopener noreferrer">Consultor de TI</a>
-                </li>
-                <li class="main__section-list-item">Ene. 2010 - Actualmente (13 años, 6 meses)</li>
-                <li class="main__section-list-item">Valencia, Venezuela</li>
-            </ul>
-            <blockquote class="main__section-blockquote">
-                <p class="main__section-paragraph">Asesoramiento y servicio especializado en TI para satisfacer las
-                    necesidades del cliente, como la administración y mantenimiento de servidores y estaciones de
-                    trabajo GNU/Linux, medidas de seguridad y análisis forense, resolución eficiente de incidentes
-                    informáticos, desarrollo y programación de proyectos con Arduino y Raspberry Pi, diseño y gestión de
-                    redes LAN, registro y administración de dominios de Internet, implementación y optimización de
-                    servicios de alojamiento web, e instalaciones eléctricas especializadas para equipos informáticos.</p>
-            </blockquote>
-            <h3 class="main__section-subtitle">Almacenes y Depósitos Integrales Portuarios, C.A.</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item">
-                    <a class="main__section-link"
-                        href="https://drive.google.com/file/d/17BotO9_4mFPcubE5mT5bkuGt0jHtLXtc/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Coordinador de Sistemas</a>
-                </li>
-                <li class="main__section-list-item">May. 2007 - Oct. 2009 (2 años, 6 meses)</li>
-                <li class="main__section-list-item">Puerto Cabello, Venezuela</li>
-            </ul>
-            <blockquote class="main__section-blockquote">
-                <p class="main__section-paragraph">Implementación de mejoras en los procesos y soluciones tecnológicas
-                    del almacén portuario para la importación y exportación de carga suelta y contenerizada. Objetivos
-                    alcanzados incluyen el cumplimiento de la normativa aduanera, aumento de la eficacia y productividad
-                    del personal encargado de las operaciones, optimización de la exactitud del inventario de mercancías
-                    y contenedores, planificación de los recursos operativos, reducción de los tiempos de carga y
-                    descarga de buques, garantía de la seguridad física de la carga, ejecución de despachos de manera
-                    oportuna y en perfectas condiciones, y, satisfacción de las demandas del cliente.</p>
-            </blockquote>
-            <h3 class="main__section-subtitle">CompuMarket S.A.</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item">
-                    <a class="main__section-link"
-                        href="https://drive.google.com/file/d/1y-4k5amn1MWYu2a1FQ9TIyjqgjtUBKSC/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Pasante de Máster en Comercio Electrónico</a>
-                </li>
-                <li class="main__section-list-item">Mar. 2006 - Jul. 2006 (5 meses)</li>
-                <li class="main__section-list-item">Madrid, España</li>
-            </ul>
-            <blockquote class="main__section-blockquote">
-                <p class="main__section-paragraph">Adquisición de conocimientos y habilidades en áreas fundamentales
-                    como análisis y gestión de ventas por Internet, posicionamiento web, gestión de contenido, análisis
-                    de la competencia en línea y estrategias de Internet marketing. Demostrando un desempeño altamente
-                    satisfactorio en todas las tareas asignadas, utilizando métricas y herramientas específicas para
-                    mejorar las ventas y proponer estrategias efectivas. Asimismo, se llevaron a cabo pruebas de SEO y
-                    optimización del contenido web para mejorar el posicionamiento en los motores de búsqueda. En
-                    resumen, la vivencia brindó una sólida base en el ámbito de los negocios digitales.</p>
-            </blockquote>
-        </section>
-        <!-- 6 -->
-        <section class="main__section">
-            <h2 class="main__section-title">Formación Académica</h2>
-            <h3 class="main__section-subtitle">Alura Latam</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item">
-                    <a class="main__section-link"
-                        href="https://app.aluracursos.com/user/azocarone/fullCertificate/4ccff4b5373324134b6783e53c7b6203"
-                        target="_blank" rel="noopener noreferrer">ONE - Oracle Next Education, Developer</a>
-                </li>
-                <li class="main__section-list-item">Jul. 2022 - Ene. 2023 (7 meses)</li>
-                <li class="main__section-list-item">São Paulo, Brasil</li>
-            </ul>
-            <h3 class="main__section-subtitle">Universidad "Carlos III de Madrid"</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item">
-                    <a class="main__section-link"
-                        href="https://drive.google.com/file/d/1Ym3AlUFKLIqV4fZGa9pVUGocd9KBA2nx/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Máster en Comercio Electrónico, Negocios y Tecnologías
-                        de la Información</a>
-                </li>
-                <li class="main__section-list-item">Oct. 2005 - Sep. 2006 (11 meses)</li>
-                <li class="main__section-list-item">Madrid, España</li>
-            </ul>
-            <h3 class="main__section-subtitle">Universidad "Alejandro de Humboldt"</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item">
-                    <a class="main__section-link"
-                        href="https://drive.google.com/file/d/1uF8gTSqiHcChuGjpUCUO77EzHoFtOWzY/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Ingeniería Informática, Tecnologías de la
-                        información</a>
-                </li>
-                <li class="main__section-list-item">Sep. 1999 - Jun. 2004 (4 años, 9 meses)</li>
-                <li class="main__section-list-item">Valencia, Venezuela</li>
-            </ul>
-            <h3 class="main__section-subtitle">Instituto Universitario de "Nuevas Profesiones"</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item">
-                    <a class="main__section-link"
-                        href="https://drive.google.com/file/d/1QeBaa2anYVvWPjLh-XSY-lOLV_w9T8BW/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Computación, Ingeniería</a>
-                </li>
-                <li class="main__section-list-item">Sep. 1988 - Dic. 1992 (4 años, 3 meses)</li>
-                <li class="main__section-list-item">Valencia, Venezuela</li>
-            </ul>
-        </section>
-        <!-- 7 -->
-        <section class="main__section">
-            <h2 class="main__section-title">Competencias Destacadas</h2>
-            <h3 class="main__section-subtitle">Conocimientos</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item main__section-list-item--box">Programación</li>
-                <li class="main__section-list-item main__section-list-item--box">Matemática discreta</li>
-                <li class="main__section-list-item main__section-list-item--box">Estadística</li>
-                <li class="main__section-list-item main__section-list-item--box">Gestión de negocios</li>
-                <li class="main__section-list-item main__section-list-item--box">Análisis de datos</li>
-            </ul>
-            <h3 class="main__section-subtitle">Tecnologías Aplicadas</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item main__section-list-item--box">Linux</li>
-                <li class="main__section-list-item main__section-list-item--box">MySQL</li>
-                <li class="main__section-list-item main__section-list-item--box">DBA</li>
-                <li class="main__section-list-item main__section-list-item--box">SQL</li>
-                <li class="main__section-list-item main__section-list-item--box">Python</li>
-                <li class="main__section-list-item main__section-list-item--box">Git</li>
-                <li class="main__section-list-item main__section-list-item--box">Figma</li>
-                <li class="main__section-list-item main__section-list-item--box">HTML</li>
-                <li class="main__section-list-item main__section-list-item--box">CSS</li>
-                <li class="main__section-list-item main__section-list-item--box">BEM</li>
-            </ul>
-            <h3 class="main__section-subtitle">Habilidades Interpersonales</h3>
-            <ul class="main__section-list">
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Autogestión</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Liderazgo</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Cooperación</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Comunicación</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Persuasión</a>
-                </li>
-            </ul>
-        </section>
-        <!-- 8 -->
-        <section class="main__section">
-            <h2 class="main__section-title">Certificaciones / Cursos</h2>
-            <ul class="main__section-list">
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://drive.google.com/file/d/1OtI30LuhdiQ_3QiRx1o8WlnHXdux9XyF/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Introducción al análisis de datos con Python</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://drive.google.com/file/d/1RvkbiTmJXI1JwCcqo0_A5TAEFJNZCzh2/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Power BI</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://drive.google.com/file/d/1XJ6u-FSN_8-hbDGt7Za_NfOJWU5zmEZP/view?usp=sharing"
-                        target="_blank" rel="noopener noreferrer">Profesional de Python</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://app.aluracursos.com/certificate/3b305fca-560d-4c59-aa78-b8cd6e29633f"
-                        target="_blank" rel="noopener noreferrer">Machine Learning con SKLearn</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://app.aluracursos.com/certificate/28c952fb-f7a5-4a63-84ac-69f678db4c6f"
-                        target="_blank" rel="noopener noreferrer">Data Visualization con Seaborn</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://app.aluracursos.com/certificate/ab28a563-3670-40d8-bb44-3d91591b495a"
-                        target="_blank" rel="noopener noreferrer">Data Science con Pandas</a>
-                </li>
-                <li class="main__section-list-item main__section-list-item--box">
-                    <a class="main__section-link main__section-link--color"
-                        href="https://app.aluracursos.com/degree/certificate/db6e0642-3c98-44a5-a5df-63869da53386"
-                        target="_blank" rel="noopener noreferrer">SQL con MySQL Server</a>
-                </li>
-            </ul>
-        </section>
-        <!-- 9 -->
-        <section class="main__section">
-            <h2 class="main__section-title">Idiomas</h2>
-            <ul class="main__section-list">
-                <li class="main__section-list-item main__section-list-item--box">Español - Nativo</li>
-                <li class="main__section-list-item main__section-list-item--box">Inglés - Elemental</li>
-            </ul>
-        </section>
+      <!-- 1 -->
+      <section class="main__section">
+        <img
+          class="main__section-image"
+          src="../assets/img/logos/ja.svg"
+          alt="Logo perfil José AZÓCAR"
+        />
+      </section>
+      <!-- 2 -->
+      <section class="main__section">
+        <h1 class="main__section-title main__section-title--text-modify">
+          José AZÓCAR
+        </h1>
+        <h2 class="main__section-subtitle main__section-subtitle--text-modify">
+          Ing. en Informática | Dev Trainee/Junior | Data Science
+        </h2>
+      </section>
+      <!-- 3 -->
+      <section class="main__section">
+        <h2 class="main__section-title">Contacto</h2>
+        <ul class="main__section-list">
+          <li class="main__section-list-item main__section-list-item--icon">
+            San Diego, Carabobo - Venezuela
+          </li>
+          <li class="main__section-list-item main__section-list-item--icon">
+            +58 41X XXX XX XX
+          </li>
+          <li class="main__section-list-item main__section-list-item--icon">
+            mi@curriculum.web
+          </li>
+          <li class="main__section-list-item main__section-list-item--icon">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://azocarone.github.io/portafolio-challenge-one/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Portafolio</a
+            >
+          </li>
+        </ul>
+      </section>
+      <!-- 4 -->
+      <section class="main__section">
+        <h2 class="main__section-title">Acerca de ...</h2>
+        <p class="main__section-paragraph">
+          Soy ingeniero informático con un máster en e-Commerce y más de 13 años
+          de experiencia en el sector. Presto asesoramiento y servicios
+          especializados en TI, ofreciendo soluciones innovadoras para
+          satisfacer las necesidades de los clientes. Me mantengo en contacto
+          con programas como el ONE - Oracle Next Education, con el propósito de
+          aprovechar mi formación para incrementar el éxito y aportar valor a
+          los proyectos en los que participo. Si requiere a un profesional de
+          tecnología de la información y comercio electrónico, estaría encantado
+          de colaborar con usted para que pueda lograr sus objetivos.
+        </p>
+      </section>
+      <!-- 5 -->
+      <section class="main__section">
+        <h2 class="main__section-title">Experiencia Laboral</h2>
+        <h3 class="main__section-subtitle">Por Cuenta Propia</h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item">
+            <a
+              class="main__section-link"
+              href="https://github.com/azocarone"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Consultor de TI</a
+            >
+          </li>
+          <li class="main__section-list-item">
+            Ene. 2010 - Actualmente (13 años, 6 meses)
+          </li>
+          <li class="main__section-list-item">Valencia, Venezuela</li>
+        </ul>
+        <blockquote class="main__section-blockquote">
+          <p class="main__section-paragraph">
+            Asesoramiento y servicio especializado en TI para satisfacer las
+            necesidades del cliente, como la administración y mantenimiento de
+            servidores y estaciones de trabajo GNU/Linux, medidas de seguridad y
+            análisis forense, resolución eficiente de incidentes informáticos,
+            desarrollo y programación de proyectos con Arduino y Raspberry Pi,
+            diseño y gestión de redes LAN, registro y administración de dominios
+            de Internet, implementación y optimización de servicios de
+            alojamiento web, e instalaciones eléctricas especializadas para
+            equipos informáticos.
+          </p>
+        </blockquote>
+        <h3 class="main__section-subtitle">
+          Almacenes y Depósitos Integrales Portuarios, C.A.
+        </h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item">
+            <a
+              class="main__section-link"
+              href="https://drive.google.com/file/d/17BotO9_4mFPcubE5mT5bkuGt0jHtLXtc/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Coordinador de Sistemas</a
+            >
+          </li>
+          <li class="main__section-list-item">
+            May. 2007 - Oct. 2009 (2 años, 6 meses)
+          </li>
+          <li class="main__section-list-item">Puerto Cabello, Venezuela</li>
+        </ul>
+        <blockquote class="main__section-blockquote">
+          <p class="main__section-paragraph">
+            Implementación de mejoras en los procesos y soluciones tecnológicas
+            del almacén portuario para la importación y exportación de carga
+            suelta y contenerizada. Objetivos alcanzados incluyen el
+            cumplimiento de la normativa aduanera, aumento de la eficacia y
+            productividad del personal encargado de las operaciones,
+            optimización de la exactitud del inventario de mercancías y
+            contenedores, planificación de los recursos operativos, reducción de
+            los tiempos de carga y descarga de buques, garantía de la seguridad
+            física de la carga, ejecución de despachos de manera oportuna y en
+            perfectas condiciones, y, satisfacción de las demandas del cliente.
+          </p>
+        </blockquote>
+        <h3 class="main__section-subtitle">CompuMarket S.A.</h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item">
+            <a
+              class="main__section-link"
+              href="https://drive.google.com/file/d/1y-4k5amn1MWYu2a1FQ9TIyjqgjtUBKSC/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Pasante de Máster en Comercio Electrónico</a
+            >
+          </li>
+          <li class="main__section-list-item">
+            Mar. 2006 - Jul. 2006 (5 meses)
+          </li>
+          <li class="main__section-list-item">Madrid, España</li>
+        </ul>
+        <blockquote class="main__section-blockquote">
+          <p class="main__section-paragraph">
+            Adquisición de conocimientos y habilidades en áreas fundamentales
+            como análisis y gestión de ventas por Internet, posicionamiento web,
+            gestión de contenido, análisis de la competencia en línea y
+            estrategias de Internet marketing. Demostrando un desempeño
+            altamente satisfactorio en todas las tareas asignadas, utilizando
+            métricas y herramientas específicas para mejorar las ventas y
+            proponer estrategias efectivas. Asimismo, se llevaron a cabo pruebas
+            de SEO y optimización del contenido web para mejorar el
+            posicionamiento en los motores de búsqueda. En resumen, la vivencia
+            brindó una sólida base en el ámbito de los negocios digitales.
+          </p>
+        </blockquote>
+      </section>
+      <!-- 6 -->
+      <section class="main__section">
+        <h2 class="main__section-title">Formación Académica</h2>
+        <h3 class="main__section-subtitle">Alura Latam</h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item">
+            <a
+              class="main__section-link"
+              href="https://app.aluracursos.com/user/azocarone/fullCertificate/4ccff4b5373324134b6783e53c7b6203"
+              target="_blank"
+              rel="noopener noreferrer"
+              >ONE - Oracle Next Education, Developer</a
+            >
+          </li>
+          <li class="main__section-list-item">
+            Jul. 2022 - Ene. 2023 (7 meses)
+          </li>
+          <li class="main__section-list-item">São Paulo, Brasil</li>
+        </ul>
+        <h3 class="main__section-subtitle">
+          Universidad "Carlos III de Madrid"
+        </h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item">
+            <a
+              class="main__section-link"
+              href="https://drive.google.com/file/d/1Ym3AlUFKLIqV4fZGa9pVUGocd9KBA2nx/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Máster en Comercio Electrónico, Negocios y Tecnologías de la
+              Información</a
+            >
+          </li>
+          <li class="main__section-list-item">
+            Oct. 2005 - Sep. 2006 (11 meses)
+          </li>
+          <li class="main__section-list-item">Madrid, España</li>
+        </ul>
+        <h3 class="main__section-subtitle">
+          Universidad "Alejandro de Humboldt"
+        </h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item">
+            <a
+              class="main__section-link"
+              href="https://drive.google.com/file/d/1uF8gTSqiHcChuGjpUCUO77EzHoFtOWzY/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ingeniería Informática, Tecnologías de la información</a
+            >
+          </li>
+          <li class="main__section-list-item">
+            Sep. 1999 - Jun. 2004 (4 años, 9 meses)
+          </li>
+          <li class="main__section-list-item">Valencia, Venezuela</li>
+        </ul>
+        <h3 class="main__section-subtitle">
+          Instituto Universitario de "Nuevas Profesiones"
+        </h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item">
+            <a
+              class="main__section-link"
+              href="https://drive.google.com/file/d/1QeBaa2anYVvWPjLh-XSY-lOLV_w9T8BW/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Computación, Ingeniería</a
+            >
+          </li>
+          <li class="main__section-list-item">
+            Sep. 1988 - Dic. 1992 (4 años, 3 meses)
+          </li>
+          <li class="main__section-list-item">Valencia, Venezuela</li>
+        </ul>
+      </section>
+      <!-- 7 -->
+      <section class="main__section">
+        <h2 class="main__section-title">Competencias Destacadas</h2>
+        <h3 class="main__section-subtitle">Conocimientos</h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item main__section-list-item--box">
+            Programación
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            Matemática discreta
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            Estadística
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            Gestión de negocios
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            Análisis de datos
+          </li>
+        </ul>
+        <h3 class="main__section-subtitle">Tecnologías Aplicadas</h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item main__section-list-item--box">
+            Linux
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            MySQL
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            DBA
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            SQL
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            Python
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            Git
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            Figma
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            BEM
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            HTML
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            CSS
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            JS
+          </li>
+        </ul>
+        <h3 class="main__section-subtitle">Habilidades Interpersonales</h3>
+        <ul class="main__section-list">
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Autogestión</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Liderazgo</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Cooperación</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Comunicación</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://drive.google.com/file/d/1Gy_7aZy8oTi58UaSyu8kbzIQH-G-YGvM/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Persuasión</a
+            >
+          </li>
+        </ul>
+      </section>
+      <!-- 8 -->
+      <section class="main__section">
+        <h2 class="main__section-title">Certificaciones / Cursos</h2>
+        <ul class="main__section-list">
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://drive.google.com/file/d/1OtI30LuhdiQ_3QiRx1o8WlnHXdux9XyF/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Introducción al análisis de datos con Python</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://drive.google.com/file/d/1RvkbiTmJXI1JwCcqo0_A5TAEFJNZCzh2/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Power BI</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://drive.google.com/file/d/1XJ6u-FSN_8-hbDGt7Za_NfOJWU5zmEZP/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Profesional de Python</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://app.aluracursos.com/certificate/3b305fca-560d-4c59-aa78-b8cd6e29633f"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Machine Learning con SKLearn</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://app.aluracursos.com/certificate/28c952fb-f7a5-4a63-84ac-69f678db4c6f"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Data Visualization con Seaborn</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://app.aluracursos.com/certificate/ab28a563-3670-40d8-bb44-3d91591b495a"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Data Science con Pandas</a
+            >
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            <a
+              class="main__section-link main__section-link--color"
+              href="https://app.aluracursos.com/degree/certificate/db6e0642-3c98-44a5-a5df-63869da53386"
+              target="_blank"
+              rel="noopener noreferrer"
+              >SQL con MySQL Server</a
+            >
+          </li>
+        </ul>
+      </section>
+      <!-- 9 -->
+      <section class="main__section">
+        <h2 class="main__section-title">Idiomas</h2>
+        <ul class="main__section-list">
+          <li class="main__section-list-item main__section-list-item--box">
+            Español - Nativo
+          </li>
+          <li class="main__section-list-item main__section-list-item--box">
+            Inglés - Elemental
+          </li>
+        </ul>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
