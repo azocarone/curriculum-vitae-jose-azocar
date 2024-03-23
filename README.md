@@ -1,8 +1,8 @@
 # Curriculum vitae
 
-## José AZÓCAR
+**José AZÓCAR**
 
-**Ing. en Informática / Computer Engr | Dev Trainee/Junior | Data Science**
+*Ing. en Informática / Computer Engr | Dev Trainee/Junior | Data Science*
 
 ## Acerca de / About ...
 
