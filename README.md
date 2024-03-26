@@ -18,4 +18,10 @@
 
 **EN:**
 
-> I am a computer engineer with a master's degree in e-Commerce and more than 13 years of experience in the sector. I provide specialized IT consulting and services, offering innovative solutions to meet customer needs. I keep in touch with programs such as ONE - Oracle Next Education, with the purpose of leveraging my training to increase success and bring value to the projects I am involved in. If you require an IT and e-commerce professional, I would be happy to work with you to help you achieve your goals.
+> With a master's degree in e-Commerce and 14+ years of IT experience, I offer customized solutions to meet my clients' needs.
+>
+> Passionate about Python and Data Science, I am in constant learning process to handle complex datasets, apply Machine Learning techniques and communicate results effectively.
+> 
+> To keep myself updated, I participate in learning platforms such as Alura Latam, Código Facilito and Microsoft Learn, and in Data Science Discord communities.
+> 
+> In short, as an experienced digital professional with a focus on data analytics, I am ready to add value to your project. 
