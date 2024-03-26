@@ -2,15 +2,19 @@
 
 **José AZÓCAR**
 
-*Ing. en Informática / Computer Engr | Dev Trainee/Junior | Data Science*
+*Ing. en Informática / Computer Engr | Data Science | Dev Trainee/Junior*
 
 ## Acerca de / About ...
 
 **ES:**
 
+>  Con un máster en e-Commerce y 14+ años de experiencia en IT, ofrezco soluciones personalizadas para satisfacer las necesidades de mis clientes.
 
-> Soy ingeniero informático con un máster en e-Commerce y más de 13 años de experiencia en el sector. Presto asesoramiento y servicios especializados en TI, ofreciendo soluciones innovadoras para satisfacer las necesidades de los clientes. Me mantengo en contacto con programas como el ONE - Oracle Next Education, con el propósito de aprovechar mi formación para incrementar el éxito y aportar valor a los proyectos en los que participo. Si requiere a un profesional de tecnología de la información y comercio electrónico, estaría encantado de colaborar con usted para que pueda lograr sus objetivos.
+Apasionado por Python y el Data Science, estoy en constante proceso de aprendizaje para manejar conjuntos de datos complejos, aplicar técnicas de Machine Learning y comunicar resultados efectivamente.
 
+Para mantenerme actualizado, participo en plataformas de aprendizaje como Alura Latam, Código Facilito y Microsoft Learn, y en comunidades de Discord de Data Science.
+
+En resumen, como profesional con experiencia en el ámbito digital y enfocado en el análisis de datos, estoy listo para agregar valor a su proyecto. 
 
 **EN:**
 
