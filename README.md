@@ -10,11 +10,11 @@
 
 >  Con un máster en e-Commerce y 14+ años de experiencia en IT, ofrezco soluciones personalizadas para satisfacer las necesidades de mis clientes.
 
-Apasionado por Python y el Data Science, estoy en constante proceso de aprendizaje para manejar conjuntos de datos complejos, aplicar técnicas de Machine Learning y comunicar resultados efectivamente.
+> Apasionado por Python y el Data Science, estoy en constante proceso de aprendizaje para manejar conjuntos de datos complejos, aplicar técnicas de Machine Learning y comunicar resultados efectivamente.
 
-Para mantenerme actualizado, participo en plataformas de aprendizaje como Alura Latam, Código Facilito y Microsoft Learn, y en comunidades de Discord de Data Science.
+> Para mantenerme actualizado, participo en plataformas de aprendizaje como Alura Latam, Código Facilito y Microsoft Learn, y en comunidades de Discord de Data Science.
 
-En resumen, como profesional con experiencia en el ámbito digital y enfocado en el análisis de datos, estoy listo para agregar valor a su proyecto. 
+> En resumen, como profesional con experiencia en el ámbito digital y enfocado en el análisis de datos, estoy listo para agregar valor a su proyecto. 
 
 **EN:**
 
