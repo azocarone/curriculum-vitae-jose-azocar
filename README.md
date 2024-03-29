@@ -1,27 +1,118 @@
-# Curriculum vitae
+# José AZÓCAR
 
-**José AZÓCAR**
+*Computer Engr. | Data Science | Dev Trainee/Junior*
 
-*Ing. en Informática / Computer Engr | Data Science | Dev Trainee/Junior*
+## Contact information
 
-## Acerca de / About ...
+- San Diego, Carabobo - Venezuela
 
-**ES:**
+## About ...
 
->  Con un máster en e-Commerce y 14+ años de experiencia en IT, ofrezco soluciones personalizadas para satisfacer las necesidades de mis clientes.
->
-> Apasionado por Python y el Data Science, estoy en constante proceso de aprendizaje para manejar conjuntos de datos complejos, aplicar técnicas de Machine Learning y comunicar resultados efectivamente.
->
-> Para mantenerme actualizado, participo en plataformas de aprendizaje como Alura Latam, Código Facilito y Microsoft Learn, y en comunidades de Discord de Data Science.
->
-> En resumen, como profesional con experiencia en el ámbito digital y enfocado en el análisis de datos, estoy listo para agregar valor a su proyecto. 
+With a master's degree in e-Commerce and 14+ years of IT experience, I offer customized solutions to meet my clients' needs.
 
-**EN:**
+Passionate about Python and Data Science, I am in constant learning process to handle complex datasets, apply Machine Learning techniques and communicate results effectively.
 
-> With a master's degree in e-Commerce and 14+ years of IT experience, I offer customized solutions to meet my clients' needs.
->
-> Passionate about Python and Data Science, I am in constant learning process to handle complex datasets, apply Machine Learning techniques and communicate results effectively.
-> 
-> To keep myself updated, I participate in learning platforms such as Alura Latam, Código Facilito and Microsoft Learn, and in Data Science Discord communities.
-> 
-> In short, as an experienced digital professional with a focus on data analytics, I am ready to add value to your project. 
+To keep myself updated, I participate in learning platforms such as Alura Latam, Código Facilito and Microsoft Learn, and in Data Science Discord communities.
+
+In short, as an experienced digital professional with a focus on data analytics, I am ready to add value to your project.
+
+## Experience
+
+### Self-employed
+
+**IT Advisor**
+
+- Jan. 2010 - present (14 years)
+- Valencia, Venezuela
+
+> I offer a continuous customer support service that includes: administration and maintenance of servers and GNU/Linux workstations; design and management of LAN networks; implementation of security measures and forensic analysis; development of projects with Arduino and Raspberry Pi; registration and administration of Internet domains; implementation and optimization of web hosting services; resolution of computer incidents; and specialized electrical installations for technological equipment.
+
+### Almacenes y Depósitos Integrales Portuarios, C.A.
+
+**Systems Coordinator**
+
+- May. 2007 - Oct. 2009 (2 years, 6 months)
+- Puerto Cabello, Venezuela
+
+> Implementation of process improvements and technological solutions in the port warehouse for the import and export of loose and containerized cargo. Objectives achieved include compliance with customs regulations, increased efficiency and productivity of the personnel in charge of operations, optimization of the accuracy of the inventory of goods and containers, planning of operating resources, reduction of vessel loading and unloading times, guarantee of the physical security of the cargo, timely execution of dispatches in perfect conditions, and satisfaction of the client's demands.
+
+### CompuMarket S.A.
+
+**Master in e-Commerce Intern**
+
+- Mar. 2006 - Jul. 2006 (5 months)
+- Madrid, España
+
+> Acquiring knowledge and skills in key areas such as Internet sales analysis and management, web positioning, content management, online competition analysis and Internet marketing strategies. Demonstrating highly satisfactory performance in all assigned tasks, using specific metrics and tools to improve sales and propose effective strategies. In addition, SEO and web content optimization tests were carried out to improve search engine rankings. In short, the experience provided a solid foundation in the field of digital business.
+
+## Education
+
+### Universidad "Carlos III de Madrid
+
+**Master in e-Commerce**
+
+- Oct. 2005 - Sept. 2006 (11 months)
+- Madrid, España
+
+### Universidad "Alejandro de Humboldt
+
+**Computer Engineering**
+
+- Sep. 1999 - Jun. 2004 (4 years, 9 months)
+- Caracas, Venezuela
+
+### Instituto Universitario de "Nuevas Profesiones"
+
+**Computer Technician**
+
+- Sept. 1988 - Dec. 1992 (4 years, 3 months)
+- Valencia, Venezuela
+
+## Certifications
+
+- Oracle Next Education Program
+- MLOps
+- Linear algebra
+- Statistics I
+- Statistics II
+- Power BI
+- Regression
+- Decision trees
+
+## Core competencies
+
+### Industry knowledge
+
+- Fedora
+- Linux
+- Trello
+- Figma
+- GitHub
+- SQL
+- VS Code
+- Jupyter
+- Docker 
+
+### Applied technologies
+
+- Python
+- NoSQL
+- Java
+- HTML
+- CSS
+- JavaScript 
+
+### Soft skills
+
+- Adaptability to Change
+- Self-Management
+- Collaboration
+- Effective communication
+- Leadership
+- Persuasion
+- Resilience
+
+## Languages
+
+- Spanish - Native
+- English - Elementary
