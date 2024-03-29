@@ -1,6 +1,6 @@
 .main {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns:100%;
   column-gap: 0.5rem;
   padding-left: var(--width);
   padding-right: var(--width);
@@ -135,20 +135,10 @@
 
   /*grid-area: fila_inicio / columna_inicio / fila_fin / columna_fin;*/
 
-  .main__section:nth-child(1) {
-    grid-area: 1 / 2 / 2 / 3;
-  }
+  /* Left side column */
 
   .main__section:nth-child(2) {
     grid-area: 1 / 1 / 2 / 2;
-  }
-
-  .main__section:nth-child(3) {
-    grid-area: 2 / 2 / 3 / 3;
-  }
-
-  .main__section:nth-child(4) {
-    grid-area: 3 / 2 / 4 / 3;
   }
 
   .main__section:nth-child(5) {
@@ -157,7 +147,20 @@
 
   .main__section:nth-child(6) {
     grid-area: 5 / 1 / 7 / 2;
-    padding-bottom: 2.5rem;
+  }
+
+  /* Right side column */
+
+  .main__section:nth-child(1) {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .main__section:nth-child(3) {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .main__section:nth-child(4) {
+    grid-area: 3 / 2 / 4 / 3;
   }
 
   .main__section:nth-child(7) {
@@ -170,6 +173,17 @@
 
   .main__section:nth-child(9) {
     grid-area: 6 / 2 / 7 / 3;
+  }
+  
+  /*
+  Solución para margen superior de las siguientes secciones,
+  asegurando que el contenido aparezca más cerca del contenido anterior.
+  */
+  
+  .main__section:nth-child(4),
+  .main__section:nth-child(7),
+  .main__section:nth-child(8){
+    margin-top: calc(-1 * (3 * 3rem));
   }
 
   .main__section:nth-child(2),
